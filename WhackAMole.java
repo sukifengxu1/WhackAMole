@@ -1,6 +1,7 @@
 package hello;
 import java.util.Scanner;
 
+
 public class WhackAMole {
 	
 	//fields
