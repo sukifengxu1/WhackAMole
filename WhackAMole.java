@@ -65,6 +65,7 @@ public class WhackAMole {
 		}
 	}
 
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		WhackAMole game = new WhackAMole(50, 10);
