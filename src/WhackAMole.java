@@ -1,21 +1,17 @@
-package hello;
 import java.util.Scanner;
-
 
 public class WhackAMole {
 	
-	//fields
 	int score = 0;
-	int molesLeft = 0;//?
+	int molesLeft = 0;
 	int attemptsLeft;
-	int gridDimension;//?
+	int gridDimension;
 	int[][] moleGrid;
 	
-	//constructor
 	WhackAMole(int numAttempts, int gridDimension){
 		this.attemptsLeft = numAttempts;
 		this.gridDimension = gridDimension;
-		this.moleGrid = new int[gridDimension][gridDimension];//what are the default values?; how to break a long line like this?
+		this.moleGrid = new int[gridDimension][gridDimension];
 		for(int i = 0; i < gridDimension; i++){
 			for(int j = 0; j < gridDimension; j++){
 				moleGrid[i][j] = 0;
@@ -68,7 +64,6 @@ public class WhackAMole {
 
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		WhackAMole game = new WhackAMole(50, 10);
 		game.molesLeft = 10;
 		for(int i = 0; i < 10; i++){
