@@ -1,3 +1,3 @@
 # WhackAMole
 
-A simple console version whack-a-mole, for practice purpose.
+A simple console version whack-a-mole, for git practice.
